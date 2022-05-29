@@ -47,7 +47,7 @@ const validateInput = () => inputElement.value.trim().length > 0;
 const handleAddTask = () => {
     const inputIsValid = validateInput();
     if(!inputIsValid) {
-        return alert('❌ Informe o Nome do Aluno!!')
+        return alert('❌ Informe o nome do aluno!!')
     }
     const taskItemContainer = document.createElement('div');
     taskItemContainer.classList.add('task-item');
